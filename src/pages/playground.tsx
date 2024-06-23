@@ -3,8 +3,6 @@ import Navbar from '../components/system/Navbar';
 import { Button } from '../components/ui/button';
 import { Input } from '../components/ui/input';
 import { Label } from '../components/ui/label';
-import { cn } from '../lib/utils';
-import AnimatedGridPattern from "../components/system/animated-grid-pattern";
 import { useLocation } from 'react-router-dom';
 
 type Prediction = {
